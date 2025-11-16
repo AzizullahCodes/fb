@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+ <div class="app">
+    <h1 class="app-title">Friend Request System</h1>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="suggestions">Suggestions</button>
+      <button class="tab-btn" data-tab="requests">Requests</button>
+      <button class="tab-btn" data-tab="friends">Friends</button>
+    </div>
+
+    <!-- SUGGESTIONS TAB -->
+    <div class="tab-content active" id="suggestions">
+      <h2>People You May Know</h2>
+      <div id="suggestion-list" class="card-list">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+
+    <!-- REQUESTS TAB -->
+    <div class="tab-content" id="requests">
+      <h2>Friend Requests</h2>
+      <div id="request-list" class="card-list">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+
+    <!-- FRIENDS TAB -->
+    <div class="tab-content" id="friends">
+      <h2>Your Friends</h2>
+      <div id="friends-list" class="card-list">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
